@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 8ee26b04198cf88419267f5bdbc9cc93
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _NormalTexture: {fileID: 2800000, guid: c79bee61443c86748b5d72ef4aa37d90, type: 3}
+  - _MultTexture: {fileID: 2800000, guid: c42a4e154472d114a98b9483c36b885d, type: 3}
+  - _ID01: {fileID: 2800000, guid: a40e056d097a9e84ca2f29b86c60d970, type: 3}
+  - _MetallicTexture: {fileID: 2800000, guid: d8254fefbd7c94c43a63cbaebf35b46c, type: 3}
+  - _RoughnessTexture: {fileID: 2800000, guid: d7eef475a379deb469ab9ed76327673d, type: 3}
+  - _AmbientOcclusionTexture: {fileID: 2800000, guid: bd1b9c1bd05275d44bb4f3b4294b7f88,
+      type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 223846
+  packageName: Stylized Character Female
+  packageVersion: 1.0.1
+  assetPath: Assets/Vefects/Stylized Female Character - Vexa/Shaders/SH_Vexa_Selector_Hair.shader
+  uploadId: 706759
