@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ac04e6fab8212304b85bf63c1140d480
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 7546
+  packageName: P-47 Thunderbolt
+  packageVersion: 1
+  assetPath: Assets/WWII P47 Thunderbolt/aeroplanes.shader
+  uploadId: 14269
