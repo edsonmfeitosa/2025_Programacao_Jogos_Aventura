@@ -17,6 +17,8 @@ public class aviaoController : MonoBehaviour
     [Header("Câmeras")]
     [SerializeField] private GameObject camera1Pessoa;
     [SerializeField] private GameObject camera3Pessoa;
+    [SerializeField] private Camera retrovisor;
+    [SerializeField] private KeyCode habilitaRetrovisor;
     void Start()
     {
         
@@ -83,16 +85,25 @@ public class aviaoController : MonoBehaviour
     }
     void controlaCameras()
     {
+        retrovisor.enabled = false;
         if (ligar)
         {
             camera1Pessoa.SetActive(true);
             camera3Pessoa.SetActive(true);
+            #region espelho retrovisor
+            
+            if (Input.GetKey(habilitaRetrovisor))
+            {
+                retrovisor.enabled = true;
+            }
+            #endregion
         }
         else
         {
             camera1Pessoa.SetActive(false);
             camera3Pessoa.SetActive(false);
         }
+        
     }
     private void OnCollisionEnter(Collision collision)
     {

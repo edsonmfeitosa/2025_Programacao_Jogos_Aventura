@@ -5,7 +5,7 @@ public class MovCamPlayerController : MonoBehaviour
     public Camera camera1P;
     public Camera camera3P;
     public KeyCode trocaCamera;
-    private bool estaPrimeiraPessoa = true;
+    public bool estaPrimeiraPessoa = true;
     private float mouseX = 0f;
     private float mouseY = 0f;
     public float sensibilidade = 3f;

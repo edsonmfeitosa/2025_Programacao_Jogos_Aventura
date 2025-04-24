@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d086fd40f016b304baedf402ba79caac
+timeCreated: 1514738211
+licenseType: Store
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 108227
+  packageName: G28 Rifle
+  packageVersion: 1.0
+  assetPath: Assets/G28 Rifle/G28 Rifle_demo scene.unity
+  uploadId: 520209

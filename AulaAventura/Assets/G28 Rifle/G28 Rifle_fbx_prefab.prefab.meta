@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b5f885624a7be3842a9b6d65c31e0343
+timeCreated: 1516658530
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 108227
+  packageName: G28 Rifle
+  packageVersion: 1.0
+  assetPath: Assets/G28 Rifle/G28 Rifle_fbx_prefab.prefab
+  uploadId: 520209

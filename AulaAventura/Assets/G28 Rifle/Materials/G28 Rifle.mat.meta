@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a2077239d6dbb4743b890901457cfeac
+timeCreated: 1514738250
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 108227
+  packageName: G28 Rifle
+  packageVersion: 1.0
+  assetPath: Assets/G28 Rifle/Materials/G28 Rifle.mat
+  uploadId: 520209
