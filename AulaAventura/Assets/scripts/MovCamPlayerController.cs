@@ -42,6 +42,6 @@ public class MovCamPlayerController : MonoBehaviour
         mouseY -= Input.GetAxis("Mouse Y") * sensibilidade;
         mouseY = Mathf.Clamp(mouseY, -40f, 40f);
         mouseX = Mathf.Clamp(mouseX, -45f, 45f);
-        transform.eulerAngles = new Vector3(mouseY, mouseX, 0f);
+        transform.localEulerAngles = new Vector3(mouseY, mouseX, 0f);
     }
 }
