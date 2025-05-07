@@ -107,10 +107,13 @@ public class aviaoController : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "Player")
+        if (collision.gameObject.name == "Player" && inventarioController.quantidadePecas == 3)
         {
             ligar = true;
             collision.gameObject.SetActive(false);
+            GetComponent<Rigidbody>().useGravity = false;
         }
+        if (collision.gameObject.name == "Palm")
+            TempoJogoController.fimDeJogo = true;
     }
 }
