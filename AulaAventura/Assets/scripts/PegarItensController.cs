@@ -31,6 +31,7 @@ public class PegarItensController : MonoBehaviour
         {
             qtd = qtd + 1;
             // qtd ++;
+            collision.gameObject.GetComponent<tipoItem>().categoria.quantidade++;
             Destroy(collision.gameObject);
             Debug.Log("Pegou a espada");
         }
@@ -40,6 +41,7 @@ public class PegarItensController : MonoBehaviour
         if (other.gameObject.tag == "espada")
         {
             qtd ++;
+            other.gameObject.GetComponent<tipoItem>().categoria.quantidade++;
             Destroy(other.gameObject);
             Debug.Log("Pegou a espada");
         }
